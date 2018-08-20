@@ -178,7 +178,6 @@
 				9010155A1F8E8AFF00A5274E /* Resources */,
 				901015B31F8EF24C00A5274E /* CopyFiles */,
 				4A79E6305EEEB70C7AF3B8EB /* [CP] Embed Pods Frameworks */,
-				6CE1E13203EF704FDCA50545 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,21 +283,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileAzureDevDaysUITests/Pods-MobileAzureDevDaysUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6CE1E13203EF704FDCA50545 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileAzureDevDaysUITests/Pods-MobileAzureDevDaysUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4E4B8AC457E740C2C80DD59 /* [CP] Check Pods Manifest.lock */ = {

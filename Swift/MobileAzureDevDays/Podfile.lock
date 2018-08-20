@@ -4,9 +4,13 @@ PODS:
 DEPENDENCIES:
   - AppCenterXCUITestExtensions
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppCenterXCUITestExtensions
+
 SPEC CHECKSUMS:
   AppCenterXCUITestExtensions: 8825ed941664fa21d6740a5ed6928a84c06623ac
 
 PODFILE CHECKSUM: 17ba4ab539f16865cacb3ee7dbb3295076ba014f
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
