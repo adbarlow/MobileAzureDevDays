@@ -1,3 +1,14 @@
 use_frameworks! # required for projects with Swift sources
+platform :ios, '11.0'
+workspace 'MobileAzureDevDays'
 
-target 'MobileAzureDevDaysUITests' do pod 'AppCenterXCUITestExtensions' end
+target 'MobileAzureDevDays' do
+	pod 'AppCenter'
+	pod 'AppCenter/Analytics'
+ 	pod 'AppCenter/Crashes'
+end
+
+target 'MobileAzureDevDaysUITests' do 
+	pod 'AppCenterXCUITestExtensions' 
+	
+end
